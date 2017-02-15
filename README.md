@@ -12,6 +12,6 @@ recuperer le programme dans le chapitre 2 du livre.
 * chercher la page 
 * 
 
-''''python'''' 
+````python````
 robot = tata 
 
