@@ -14,4 +14,8 @@ recuperer le programme dans le chapitre 2 du livre.
 
 ````python````
 robot = tata 
+i = 1 
+
+```
+programme termine 
 
