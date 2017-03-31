@@ -1,0 +1,27 @@
+from socket import *
+serverPort = 12003
+serverSocket = socket(AF_INET,SOCK_STREAM) #
+serverSocket.bind(("",serverPort))
+serverSocket.listen(1)
+
+
+print "The server is ready to receive"
+while 1:
+        (cs,(cip,cport)=s.accept()
+	req = cs.recv(2048)
+	mots=req.Split("^"
+	
+	connectionSocket, addr = serverSocket.accept() #client se connect serveur accept
+	sentence = connectionSocket.recv(1024)  # recoit les donnees 
+	capitalizedSentence = sentence.upper()  # passe en majuscule 
+	
+	connectionSocket.close() # fermeture connection socket 
+	connectionSocket.send(capitalizedSentence) #envoie donne 
+	print "From Server:", capitalizedSentence 
+	print addr[0]  # sort ladresse de lexpediteur 
+	connectionSocket.close() # fermeture connection socket 
+      
+        while 1:
+		
+		print "From Server:", capitalizedSentence	
+		connectionSocket.close()
